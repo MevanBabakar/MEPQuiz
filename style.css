@@ -1,2 +1,32 @@
-#labour, #tory, #ukip
-{float:left; width:100px; height:35px; margin:10px;padding:10px;border:1px solid #aaaaaa;}
+#labour
+{
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  background: red;
+}
+
+#tory
+{
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  background: blue;
+}
+
+#ukip
+{
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  background: purple;
+}

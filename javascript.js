@@ -19,13 +19,25 @@ function drop(ev) {
 
 function submit() {
   var score = 0;
-  if (answerArray["farage"] == "ukip") {
+  if (answerArray["ukip1"] == "ukip") {
     score = score + 1;
   }
-  if (answerArray["hunt"] == "tory") {
+  if (answerArray["ukip2"] == "ukip") {
     score = score + 1;
   }
-  
+  if (answerArray["tory1"] == "tory") {
+    score = score + 1;
+  }
+  if (answerArray["tory2"] == "tory") {
+    score = score + 1;
+  }
+  if (answerArray["labour1"] == "labour") {
+    score = score + 1;
+  }
+  if (answerArray["labour2"] == "labour") {
+    score = score + 1;
+  }
+
   yourscore = document.getElementById("yourscore")
   yourscore.innerHTML = score;
 
